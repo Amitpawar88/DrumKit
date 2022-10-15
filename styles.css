@@ -74,3 +74,76 @@ h1 {
   margin: 10px;
   background-color: white;
 }
+/* Footer styling*/
+
+  footer{
+    --bs-bg-opacity: 1;
+    background-color: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(217, 48, 48, 1) 50%, rgba(252, 234, 69, 1) 100%);
+     height: auto;
+    width: auto;
+    font-family: cursive;
+    padding-top: 40px;
+    color: white;
+
+  }
+
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center;
+    }
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.socials li{
+  margin: 0 10px;
+
+}
+
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a i{
+  font-size: 1.1rem;
+
+}
+
+.socials a:hover{
+  color: black;
+}
+
+.footer-bottom{
+  --bs-bg-opacity: 1;
+  background-color: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(217, 48, 48, 1) 50%, rgba(252, 234, 69, 1) 100%);
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+
+}
+
+.footer-bottom p{
+   font-size: 14px;
+   word-spacing: 2px;
+   text-transform: capitalize;
+
+}
+
+.footer-bottom span{
+  text-transform: uppercase;
+  color: white;
+  opacity:0.5;
+  font-weight: 500;
+  text-decoration: underline;
+
+}
