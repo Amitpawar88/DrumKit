@@ -46,7 +46,7 @@ h1 {
 }
 
 .game-over {
-  background-color: red;
+  background-color: #f20a15;
   opacity: 0.8;
 }
 
